@@ -141,7 +141,13 @@
     <ClInclude Include="Components\Component.h" />
     <ClInclude Include="Engine\Engine.h" />
     <ClInclude Include="Entities\Entity.h" />
+    <ClInclude Include="Entities\EntityManager.h" />
+    <ClInclude Include="Helpers\Helper.h" />
+    <ClInclude Include="Helpers\Includes.h" />
     <ClInclude Include="Systems\system.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
