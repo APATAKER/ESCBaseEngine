@@ -162,6 +162,16 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\Win32\Debug\assimp-vc142-mtd.dll" />
+    <None Include="lib\Win32\Release\assimp-vc142-mt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\Win32\Debug\assimp-vc142-mtd.lib" />
+    <Library Include="lib\Win32\Debug\glfw3.lib" />
+    <Library Include="lib\Win32\Release\assimp-vc142-mt.lib" />
+    <Library Include="lib\Win32\Release\glfw3.lib" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
